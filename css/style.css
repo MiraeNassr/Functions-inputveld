@@ -1,14 +1,25 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 100px;
 }
 
-#irritant {
+#annoying-input {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
     padding: 10px;
+}
+
+#captcha {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#captcha-input {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
 }
